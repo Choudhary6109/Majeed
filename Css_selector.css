@@ -1,0 +1,63 @@
+/* 
+selectors Syntax:-
+selectorType{
+propertykey:propertyValue
+}
+ */
+
+ /* 
+ 1. Element selector 
+ */
+ /* p{
+    color: red;
+ }
+ h2{
+    color: white;
+    background-color: black;
+ } */
+ /*
+ 2. Id selectors
+  */
+ /* #pId{
+    color:aqua;
+ }
+ #p1Id{
+    color: rgb(0, 0, 255);
+ } */
+ /*
+ 3. class selector
+  */
+ /* .p{
+    background-color: rgb(153, 26, 58);
+ }
+ .p1{
+    color: brown;
+ }
+ .p2{
+color: aqua; */
+/*  we also use all of these in same time */
+/* #pId, #p1Id, .p, .p1{
+    color: aquamarine; */
+    /* 
+    4. Nested selector
+     */
+/* priority/specificity order of selectors:
+>> Id >> class >> element
+ */
+/* 
+5. Universal selector */
+/* *{
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+} */
+ /* 
+ 6. descendent selector
+  */
+  #descSel p{
+    color: red;
+  }
+  /* 
+  7. Direct child selector */
+  #dircSel > p{
+    color: blue;
+  }
